@@ -1,0 +1,14 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #2a6887cf;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  }
+  span {
+  margin-left:20px;
+  cursor: pointer;
+  }

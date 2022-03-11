@@ -1,0 +1,18 @@
+<div class="container">
+  <div class="loginCard">
+  <mat-form-field class="example-full-width" >  <mat-label>Email</mat-label>
+  <input type="email" matInput style="font-size: x-large;" [formControl]="emailControl"  placeholder="Ex. pat@example.com">
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <mat-label>Password</mat-label>
+    <input type="password" matInput style="font-size: x-large;" [formControl]="passwordControl"
+    placeholder="Your Password">
+    </mat-form-field>
+  </div>
+  </div>
+  <h4 *ngIf="showMessage">This is message to show</h4>
+  <!--
+  ifshowMessage==true then 'This is message to show'
+  else '' -->
+  <button (click)="toggleShowMessage()">
+  toggle</button>
